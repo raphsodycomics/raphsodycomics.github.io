@@ -387,3 +387,14 @@ body {
 .instagram { background: #e1306c; }
 .tiktok { background: #000000; }
 .whatsapp { background: #25d366; }
+
+.container {
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
+}
+.hero {
+    background: #e9e9e9;
+    padding: 60px 0;
+    text-align: center;
+}
