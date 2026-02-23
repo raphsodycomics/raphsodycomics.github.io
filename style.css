@@ -358,3 +358,32 @@ body {
     width: 180px;
     margin-top: 10px;
 }
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.icon {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.icon:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* Brand Colors */
+.facebook { background: #1877f2; }
+.instagram { background: #e1306c; }
+.tiktok { background: #000000; }
+.whatsapp { background: #25d366; }
